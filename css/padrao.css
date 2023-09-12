@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font: 14px sans-serif;
+    background-color: black;
+}
+
+/*Padrao*/
+[class*="col-"]{
+
+    float: left; /* deixar um do lado do outro */
+    box-sizing: border-box;/* bordas na largura e altura dos elementos */
+  
+
+    display: flex;
+    height: 10px 7px ;
+    justify-content:space-between;
+    
+     background-color: transparent;
+     padding: 1px 5px 1px 1px;
+     margin-bottom: 5px;
+     background-color: black;
+  
+     
+}
+
+.imgResponsiva{
+ width: 100%;
+ 
+ 
+}
+
+/* Custumizar destinos */
+
+a:link, a:active, a:visited {
+	color: rgb(247, 244, 239);
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f9031c;
+    text-decoration: none;
+}
+
+
+
+.destinos figcaption {
+    padding: 1px;
+    border: 1px solid white;
+   border-radius: 1px;
+   flex: content;
+   float: left;
+   box-sizing: border-box;
+ }
+
+ .destinos p {
+    text-align: center;
+    margin-top: 10px;
+ }
+
